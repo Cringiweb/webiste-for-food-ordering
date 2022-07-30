@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 700px) {
+  nav ul {
+    width: 100%;
+    background: linear-gradient(rgba(165, 180, 192, 0.507) rgba(159, 137, 199, 0.589))
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+
+  }
+nav ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav ul li a{
+  color:rgba(16, 49, 97, 0.26)
+
+}
+.menu-icon {
+  display:block;
+}
+}
